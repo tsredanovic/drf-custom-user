@@ -1,12 +1,11 @@
 # Custom users using Django REST framework
 
 Django customized User model set up so that an email address can be used as the primary identifier, RESTfully exposing his endpoints for client apps to use (ReactJS, iOS, Android and other).
-This project follows the the tutorial given by Toni Sredanović in hos blog post which you can read [here](https://medium.com/krakensystems-blog/custom-users-using-django-rest-framework-5f755d643504).
+This project follows the the tutorial given by Toni Sredanović in his blog post which you can read [here](https://medium.com/krakensystems-blog/custom-users-using-django-rest-framework-5f755d643504).
 
 ## Init project
 
 ```bash
-virtualenv --python=<path/to/python3.6> venv
 python3 -m venv ./venv
 source venv/bin/activate
 pip install --upgrade pip
